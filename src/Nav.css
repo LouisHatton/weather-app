@@ -1,0 +1,50 @@
+.Nav {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.Nav h1 {
+  font-weight: 200;
+  font-size: 1.5rem;
+  padding-right: 20px;
+  white-space: nowrap;
+}
+
+.Nav form {
+  margin-left: auto;
+  display: flex;
+  padding-left: 20px;
+}
+
+.Nav form > input {
+  border: 1px solid rgba(71, 71, 71, 0.25);
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  max-width: 250px;
+  width: 100%;
+  background-color: transparent;
+  padding: 10px 5px;
+  color: #00092293;
+  transition: all ease 0.3s;
+}
+
+.Nav form > input:focus {
+  outline: none;
+  border-color: rgba(22, 22, 22, 0.5);
+  color: #000922;
+}
+
+.Nav form > button {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: none;
+  color: #00092293;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.Nav form > button:hover {
+  color: #000922;
+}

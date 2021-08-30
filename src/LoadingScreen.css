@@ -1,0 +1,15 @@
+.LoadingScreen {
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.LoadingScreen p {
+  color: rgb(190, 0, 0);
+  text-align: center;
+}
+
+.LoadingScreen span {
+  padding-right: 5px;
+}

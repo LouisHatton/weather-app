@@ -1,0 +1,56 @@
+.displayScreen {
+  height: 100vh;
+  background: rgb(136, 251, 247);
+  background: linear-gradient(
+    180deg,
+    rgba(136, 251, 247, 1) 0%,
+    rgba(136, 237, 251, 1) 35%,
+    rgba(136, 206, 251, 1) 100%
+  );
+  color: #000922;
+}
+
+.displayScreen__currentInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.displayScreen__currentInfo img {
+  width: 100%;
+  max-width: 250px;
+}
+
+.displayScreen__currentContent h1 {
+  font-weight: 500;
+  font-size: 1.05rem;
+  color: #353535;
+  width: fit-content;
+}
+
+.displayScreen__currentContent h3 {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #424242;
+  width: fit-content;
+}
+
+.displayScreen__currentContent h2 {
+  width: fit-content;
+  display: flex;
+  font-weight: 400;
+  font-size: 5rem;
+}
+
+.displayScreen__currentContent h2 > span {
+  padding-top: 1rem;
+  font-size: 1.1rem;
+  margin-right: -1.1rem;
+}
+
+.displayScreen__currentContent {
+  margin-top: -20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
