@@ -8,7 +8,6 @@ import Nav from "./Nav";
 function DisplayScreen() {
   const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
   const apiBase = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}`;
-  //const test_url = `http://api.weatherapi.com/v1/current.json?key=${API_KEY} &q=63.829042,-378.134393&aqi=no`;
 
   const [url, setUrl] = useState(`${apiBase}&q=53.956974,-1.029199&aqi=no`);
   const [data, setData] = useState();
@@ -38,8 +37,8 @@ function DisplayScreen() {
             setUrl(`${apiBase}&q=${searchText}&aqi=no`);
           }
         }}
-        searchTextChange={(e) => {
-          setSearchText(e.target.value);
+        searchVal={(val) => {
+          setSearchText(val);
         }}
       />
       {data && (

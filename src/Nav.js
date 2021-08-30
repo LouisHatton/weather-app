@@ -1,22 +1,13 @@
 import React from "react";
 import "./Nav.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSearch } from "@fortawesome/free-solid-svg-icons";
 
-function Nav({ handleClick, searchTextChange }) {
+import NavSearch from "./NavSearch";
+
+function Nav({ handleClick, searchVal }) {
   return (
     <div className="Nav">
       <h1>My App</h1>
-      <form>
-        <input
-          type="text"
-          placeholder="Search..."
-          onChange={searchTextChange}
-        />
-        <button onClick={handleClick}>
-          <FontAwesomeIcon icon={faSearch} />
-        </button>
-      </form>
+      <NavSearch searchVal={searchVal} handleClick={handleClick} />
     </div>
   );
 }
