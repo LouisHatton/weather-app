@@ -1,6 +1,6 @@
 # Weather App
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/3b79c507-eaa6-4f52-8397-2c2ccec25ec6/deploy-status)](https://app.netlify.com/sites/weather-app-louis-hatton/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3b79c507-eaa6-4f52-8397-2c2ccec25ec6/deploy-status)](https://weather-app-louis-hatton.netlify.app/)
 
 > This project is currently live at [https://weather-app-louis-hatton.netlify.app/](https://weather-app-louis-hatton.netlify.app/).
 
