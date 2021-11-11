@@ -7,9 +7,9 @@ import Nav from "./Nav";
 
 function DisplayScreen() {
   const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
-  const apiBase = `http://api.weatherapi.com/v1/current.json?key=${API_KEY}`;
+  const apiBase = `https://api.weatherapi.com/v1/current.json?key=${API_KEY}`;
 
-  const [url, setUrl] = useState(`${apiBase}&q=53.956974,-1.029199&aqi=no`);
+  const [url, setUrl] = useState(`${apiBase}&q=London&aqi=no`);
   const [data, setData] = useState();
   const [searchText, setSearchText] = useState("");
   const [apiErr, setApiErr] = useState();
